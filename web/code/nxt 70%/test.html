@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Image Slideshow</title>
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="img/nxt.jpg" alt="Slide 1">
+        </div>
+        <div class="slide fade">
+            <img src="img/studioirma_diamondmatrix.jpg" alt="Slide 2">
+        </div>
+        <div class="slide fade">
+            <img src="img/nxt3.jpg" alt="Slide 3">
+        </div>
+
+        <!-- Add more slides as needed -->
+
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <script src="test.js"></script>
+</body>
+</html>
