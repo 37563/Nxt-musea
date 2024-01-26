@@ -1,0 +1,39 @@
+Informatie opdracht
+
+verplicht:
+1. informatie
+- de geschiedenis
+- overzicht van wat je kan doen
+- conctactgegevens
+-openingstijden
+-revieuws van bezoekers
+
+2. minimaal 5 plaatjes van het museum in de site, De site staat op je ma-cloud online in een aparte map
+
+3.De landing page moet professioneel overkomen
+(strakke uitlijning, consequent doorgevoerde huisstijl, clean design, herhaling van elementen. De site is gevuld met goede teksten en plaatjes)
+
+4. De site is beschikbaar in Nederland en Engels
+(mogelijk vertalen via chat GPT)
+
+minstens 2 delen moeten interactief zijn, dus denk aan bv het addres via google maps. of een slideshow aan plaatjes, zolang het voor de gebruiker iets interactiefs is.
+
+de bedoeling is met je lp(Landpage) de doelgroep van het museum op een aantrekkelijke manier hun aandacht te krijgen. 
+
+
+wat leveren we uiteindelijk in?
+online, live testen, website
+GitHub repository met alle HTML/CSS/JS
+
+
+
+Planning: To do                 - Producten
+week 1: voorbereiding, Briefing - Git, trello, onderzoek
+week 2: x                       - ontwerp, prototype op git
+week 3: x                       - x
+week 4: reviews                 - prototype
+week 5: x                       -
+week 6: revieuws                - basisversie website
+week 7:x                        -
+week 8:x                        - website
+week 9: eindpresentaties        - x
