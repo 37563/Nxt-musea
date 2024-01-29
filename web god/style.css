@@ -179,7 +179,7 @@ nav {
 #foto1 {
   height: 40vb;
   margin-left: 55vw;
-  margin-top: 30vw;
+  margin-top: 10vw;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -363,20 +363,31 @@ div ul {
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 5rem;
+    color: white;
 }
 
-.geschiedenis-text h3{
+.geschiedenis-tekst h3{
     font-size: 22px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-bottom: 20px;
     line-height: 1.2;
-    margin-top: 150px;
+    margin-top: 40vw;
+    margin-left: 35px;
 }
 
-.geschiedenis-text p{
+.geschiedenis-tekst p{
     font-weight: 500;
     line-height: 20px;
     border-radius: 10px;
+    margin-left: 35px;
+}
+
+#foto2 {
+  height: 40vb;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10vw;
+  margin-top: 50vw;
 }
