@@ -189,3 +189,89 @@ nav {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.tijden {
+  margin-left: 10vw;
+  width: 100%;
+  margin-top: -19vw;
+  color: whitesmoke;
+}
+
+.tijden h2 {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+#foto1 {
+  height: 40vb;
+  margin-left: 55vw;
+  margin-top: 30vw;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.slideshow-container {
+  background-color: white;
+}
+
+.reviews{
+  padding: 40px 0;
+  text-align: center;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border{
+  width: 160px;
+  height: 5px;
+  background:hwb(183 3% 33%);
+  margin: 26px auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col{
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.review{
+  background:  hwb(183 3% 33%);
+  padding: 30px;
+}
+
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.stars{
+  margin-bottom: 20px;
+}
+
+.reviews-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.checked {
+  color: yellow;
+}
