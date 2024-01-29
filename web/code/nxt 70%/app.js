@@ -87,3 +87,15 @@ function sticknav() {
  }
 
   setTimeout(stopSlideshow, maxIterations * 3000);*/
+  function plusSlides(n) {
+    showSlides(currentSlide += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(currentSlide = n);
+  }
+  
+  function showSlides(n) {
+    // Implementeer logica om de juiste slide weer te geven
+  }
+  
