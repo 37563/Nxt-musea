@@ -98,17 +98,4 @@ function sticknav() {
   function showSlides(n) {
     // Implementeer logica om de juiste slide weer te geven
   }
- 
-  let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
+  
