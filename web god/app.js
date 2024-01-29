@@ -1,26 +1,3 @@
-//-------------------------------------translate
-$('.lang').on('click', function() {
-    // Toggle highlight for the clicked button
-    $(this).addClass('active');
-    // Remove highlight from the other button
-    $('.lang').not(this).removeClass('active');
-    // Define language arrays
-    var country;
-    if ($(this).text() === "EN") {
-        country = ["Search", "Home", "Contact", "Login"];
-    } else {
-        country = ["Zoeken", "Home", "Contact", "Aanmelden"];
-    }
-    // Update button text based on the clicked button's language
-    $('.menu ul li a').each(function(index) {
-        $(this).text(country[index]);
-    });
-    // Update all elements with 'data-lang' attribute
-    $('[data-lang]').each(function() {
-        var dataLangValue = $(this).data('lang');
-        $(this).text(country[dataLangValue]);
-    });
-  });
   //--------------------------------------Sticky nav
   window.onscroll = function() {sticknav()};
   var nav = document.getElementById("taskbar");
@@ -61,7 +38,7 @@ $('.lang').on('click', function() {
      currentSlide = (currentSlide + 1) % slides.length;
    }
    // 1000 milliseconds (1 second)
-   const intervalId = setInterval(showSlide, 5000);
+   const intervalId = setInterval(showSlide, 10000);
    const maxIterations = 10;
    let iterations = 0;
    /*function stopSlideshow() {

@@ -23,6 +23,8 @@ body {
     height: 600px;
     margin-top: 30vw;
     background-repeat: repeat;
+    animation: fade;
+    animation-duration: 1.5s;
   }
 nav {
     width: 100%;
@@ -33,6 +35,7 @@ nav {
     padding: 10px 40px;
     
 }
+
 .menu {
     display: flex; 
     align-items: center;
@@ -60,21 +63,7 @@ nav {
     color: #fff;
     cursor: pointer;
 }
-.language-switcher {
-    margin-left: 40px;
-    color: #fff;
-}
-.language-switcher span.active {
-    font-weight: 400;
-}
-.language-switcher span {
-    cursor: pointer;
-}
-.language-switcher span:nth-child(1) {
-   border-right: 1px solid rgb(227, 227, 227);
-   padding-right: 8px;
-   margin-right: 4px;
-}
+
 .content {
     padding: 100px 0;
     margin: 50px auto 0 auto;
@@ -402,7 +391,7 @@ div ul {
   border-radius: 10px;
   cursor: pointer;
   margin-left: 50vw;
-  margin-top: 10vw;
+  margin-top: 0vw;
 }
 
 .info{
@@ -419,7 +408,7 @@ div ul {
   letter-spacing: 4px;
   margin-bottom: 20px;
   line-height: 1.2;
-  margin-top: 150px;
+  margin-top: -40px;
   margin-left:-90vw;
 }
 
@@ -434,9 +423,9 @@ div ul {
   width: 50%;
   margin: auto;
   text-align: center;
-  transform: translate(0vh, 25vh);
+  margin-top: 25vh; 
   margin-bottom: 25vw;
- 
+  border-radius: 10px;
 }
 
 .NXT h1 {
@@ -447,7 +436,6 @@ div ul {
   letter-spacing: 1.5px;
   font-weight: 600;
   margin-top: -45vw;
- 
 }
 
 .NXT p {
