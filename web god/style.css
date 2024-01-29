@@ -7,6 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     background-color: #0B0C10;
+    color: white;
 }
   #slideshow {
     max-width: 100%;
@@ -373,8 +374,8 @@ div ul {
     letter-spacing: 4px;
     margin-bottom: 20px;
     line-height: 1.2;
-    margin-top: 40vw;
     margin-left: 35px;
+    margin-top: 150PX;
 }
 
 .geschiedenis-tekst p{
@@ -389,5 +390,38 @@ div ul {
   border-radius: 10px;
   cursor: pointer;
   margin-left: 10vw;
-  margin-top: 50vw;
+  margin-top: 10vw;
 }
+
+#foto3 {
+  height: 40vb;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 50vw;
+  margin-top: 10vw;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 5rem;
+}
+
+.Info-text h3{
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  margin-top: 150px;
+  margin-left:-90vw;
+}
+
+.Info-text p{
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 10px;
+  margin-left: -90vw;
+} 
