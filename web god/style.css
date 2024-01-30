@@ -156,8 +156,9 @@ nav {
 }
 
 .tijden {
+  max-width: 1536px;
   margin-left: 10vw;
-  width: 100%;
+  width: 1500;
   margin-top: -19vw;
   color: whitesmoke;
 }
