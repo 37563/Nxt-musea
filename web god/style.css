@@ -156,6 +156,7 @@ nav {
 }
 
 .tijden {
+  max-width: 1536px;
   margin-left: 10vw;
   width: 1500;
   margin-top: -19vw;
